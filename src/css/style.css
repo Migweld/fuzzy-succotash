@@ -1,0 +1,36 @@
+.container {
+  width: 300px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+#satVal {
+  border-radius: 4px;
+  border: 1px solid grey;
+  margin-right: 10px;
+}
+
+#hueVal {
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+.hexContainer {
+  margin: 10px 0 0 10px;
+  display: inline-flex;
+}
+
+.hexVal {
+  border: 1px solid grey;
+  min-width: 65px;
+  min-height: 20px;
+  padding: 5px 5px;
+  display: flex;
+  border-radius: 4px;
+}
+
+.hexLabel {
+  color: grey;
+  align-items: center;
+  display: flex;
+  width: 50px;
+}
